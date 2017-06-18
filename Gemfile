@@ -41,9 +41,7 @@ group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   
-  gem 'web-console', '~> 2.0'
-  
-  gem 'spring'
+  gem 'web-console', '~> 2.0'  
 end
 
 group :production do
