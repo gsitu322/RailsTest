@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   #   resources :products
 
   get 'welcome/home', to: 'welcome#home'
+  
+  resources :articles
   # Example resource route with options:
   #   resources :products do
   #     member do
