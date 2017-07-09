@@ -2,11 +2,20 @@
   text-align: center;
 }
 
+.article-actions {
+  border-top: 1px solid #EAEAEA;  
+  padding-top: 10px;
+}
+
 .footer {
   margin-top: 45px;
   padding-top: 10px;
   border-top: 1px solid #EAEAEA;
   color: #777;
+}
+
+.description {
+  margin-top: 0px;
 }
 
 @import "bootstrap-sprockets";
